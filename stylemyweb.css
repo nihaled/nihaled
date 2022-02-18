@@ -1,0 +1,57 @@
+:root{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+#padding{
+    padding: 70px 0px;
+    
+}
+/* .parallax:hover{
+    transition: .5s ease;
+    height: 110%;
+    
+} */
+.parallax {
+    /* The image used */
+    background-image: url("blue-gradient-with-dynamic-blended-line-design-vector.webp");
+
+    /* Set a specific height */
+    
+    background-attachment: fixed;
+    background-size: cover;
+}
+#page{
+    border-radius: 40px;
+    background-color: #273344;
+    
+}
+
+.hero{
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-round{
+    border-radius: 20px;
+    border-width: 2px;
+}
+
+.footer{
+    height: 50px;
+}
+
+section,h2,h3{
+    margin: 20px;
+}
+h3{
+    margin:40px;
+
+}
+
+#nihal{
+    color: #0ffbfd;
+}
+
+a{
+    color: white;
+}
