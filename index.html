@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="stylemyweb.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <style>
 
     </style>
@@ -18,21 +22,48 @@
 <body>
     <div class="parallax">
         <div id="padding" class="container bg-transparent w-100">
-            <div id="page" class="container text-light">
-                <nav class="navbar justify-content-between">
+            <div id="page" class="container  text-light">
+                <!-- <nav class="navbar justify-content-between">
                     <a id="nihal" class="navbar-brand mt-4 font-weight-bolder" href="#">NIHAL E</a>
-                    <div class="navbar  mt-4 justify-content-end">
+                    <div id="navbar" class="navbar mt-4">
                         <a class="nav-link text-light text-white-50" href="#padding">about</a>
                         <a class="nav-link text-light text-white-50" href="#skills">skills</a>
                         <a class="nav-link text-light text-white-50" href="#projects">portfolio</a>
                         <a class="nav-link text-light text-white-50" href="">resume</a>
                         <a class="nav-link text-light text-white-50" href="#contact">contact</a>
                     </div>
+                </nav> -->
+                <nav class="navbar navbar-expand-lg  justify-content-between">
+                    <a class="navbar-brand" href="#">
+                        <h2 class="font-weight-bolder mt-4 text-white-50">NIHAL E</h2>
+                    </a>
+                    <button class="navbar-toggler align-center" type="button" data-toggle="collapse"
+                        data-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="bi bi-list bg-light rounded-3 shadow"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end " id="navbarText">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ">
+                                <a class="nav-link text-light mr-4 "href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light mr-4" href="#">skills</a>
+                            </li>
+                            <li>
+                                <a class="nav-link text-light mr-4" href="">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light mr-4" href="#">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
                 </nav>
                 <section class="hero">
                     <div class="row">
-                        <div class="col-sm-5 text-center">
-                            <img class="rounded-circle w-50 align-self-center" src="nihal.jpg" alt="">
+                        <div id="" class="col-sm-5 text-center overflow-hidden">
+                            <img id="nhlimg" class="rounded-circle w-50 align-self-center" src="nihale.jpg" alt="">
                         </div>
                         <div class="col-sm-7 pt-5 pb-5">
                             <h6>
@@ -47,8 +78,8 @@
                                 felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna,
                                 a placerat sapien pretium eu.
                             </p>
-                            <a href="air quality.jpeg" download>
-                                <button type="button" class="btn btn-outline-primary btn-round text-light download">
+                            <a href="resume_under_constructio.png" download>
+                                <button type="button" class="btn btn-outline-primary rounded-pill text-light download">
                                     download cv
                                 </button>
                             </a>
@@ -115,20 +146,20 @@
                     </div>
                 </section>
                 <section class="" id="projects">
-                    <h3 class="">PROJECTS</h3>
+                    <h3 class="text-cen">PROJECTS</h3>
                     <div class="row  justify-content-between">
-                        <div class="col-sm-3 bg-dark bg-transparent">                           
-                            <h5 class="project-title">Facebook login page</h5>                         
+                        <div class="col-sm-3 bg-dark bg-transparent">
+                            <h5 class="project-title">Facebook login page</h5>
                             <a href="am" target="_blank" class="project-link">
                                 <img src="ssfblogin.png" class="w-100" alt="" /></a>
                         </div>
-                        <div class="col-sm-3 bg-transparent">                           
-                            <h5 class="">Amazone Create account page</h5>   
+                        <div class="col-sm-3 bg-transparent">
+                            <h5 class="">Amazone Create account page</h5>
                             <a href="http://127.0.0.1:5500/html/amazon/createaccount.html" target=""
                                 class="project-link">
-                                <img src="ssamazonecrete.png" class="w-100" alt="netflic-clone" /></a>
+                                <img src="ssamazonecrete.png" class="w-100" alt="" /></a>
                         </div>
-                        <div class="col-sm-3 bg-transparent">                            
+                        <div class="col-sm-3 bg-transparent">
                             <h5 class="project-title">Dog breed identification using AI</h5>
                             <a href="https://www.kaggle.com/nhledvlth/dog-breed-classification" target="_blank"
                                 class="project-link"><img src="kaggle-dog.jpg" class="w-100" alt="" /></a>
@@ -169,7 +200,7 @@
                                         class="w-100 bg-transparent rounded text-white-50" rows="5"
                                         placeholder="  Enter Message"></textarea>
                                 </div>
-                                <button type="submit" class="rounded-3 btn-outline-dark w-100">SEND MESSAGE</button>
+                                <button type="submit" class="rounded-3 text-black-50 w-100">SEND MESSAGE</button>
                             </form>
                         </div>
                     </div>
@@ -183,4 +214,5 @@
         </div>
     </div>
 </body>
+
 </html>
