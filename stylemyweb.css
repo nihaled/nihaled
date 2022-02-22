@@ -1,27 +1,21 @@
 :root{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+
 #padding{
     padding: 70px 0px;
     
 }
-/* .parallax:hover{
-    transition: .5s ease;
-    height: 110%;
-    
-} */
-.parallax {
-    /* The image used */
-    background-image: url("blue-gradient-with-dynamic-blended-line-design-vector.webp");
 
-    /* Set a specific height */
-    
+.parallax {
+    background-image: url("blue-gradient-with-dynamic-blended-line-design-vector.webp");
     background-attachment: fixed;
     background-size: cover;
 }
 #page{
     border-radius: 40px;
     background-color: #273344;
+    
     
 }
 
@@ -52,6 +46,9 @@ h3{
     color: #0ffbfd;
 }
 
-a{
-    color: white;
+#nhlimg{
+    
+    
+        border: 5px solid #156bec;    
+       
 }
