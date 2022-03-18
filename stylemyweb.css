@@ -8,9 +8,10 @@
 }
 
 .parallax {
-    background-image: url("blue-gradient-with-dynamic-blended-line-design-vector.webp");
+    background-image: url("lue-gradient-with-dynamic-blended-line-design-vector.webp");
     background-attachment: fixed;
     background-size: cover;
+    height: 100%;
 }
 #page{
     border-radius: 40px;
